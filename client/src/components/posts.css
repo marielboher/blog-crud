@@ -1,0 +1,141 @@
+.container-c {
+  margin: auto;
+  width: 400px;
+  height: 350px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 3px 3px 2px -1px rgba(0, 0, 0, 0.1);
+  background-color: #c2dedc;
+  margin-top: 20px;
+}
+
+.container-c a {
+  text-decoration: none;
+}
+
+.post {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.post-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #116a7b;
+  text-align: center;
+}
+
+.post-content {
+  font-size: 16px;
+  color: black;
+  padding: 15px;
+  text-align: center;
+}
+
+.post-date {
+  color: black;
+  padding: 15px;
+  text-align: center;
+}
+
+.container-c .btn-likee {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: transparent;
+  position: relative;
+  margin-right: 40px;
+}
+
+.btn::after {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  transition: .2s linear;
+  top: 115%;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  transition: .2s linear;
+}
+
+.icon path {
+  fill: white;
+  transition: .2s linear;
+}
+
+.btn:hover > .icon {
+  transform: scale(1.2);
+}
+
+.btn:hover > .icon path {
+  fill: rgb(177, 139, 189);
+}
+
+.btn:hover::after {
+  visibility: visible;
+  opacity: 1;
+  top: 105%;
+}
+
+.cta {
+  border: none;
+  background: none;
+}
+
+.cta span {
+  padding-bottom: 7px;
+  letter-spacing: 4px;
+  font-size: 13px;
+  padding-right: 15px;
+  text-transform: uppercase;
+}
+
+.cta svg {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active svg {
+  transform: scale(0.9);
+}
+
+.hover-underline-animation {
+  position: relative;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+}

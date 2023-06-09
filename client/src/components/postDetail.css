@@ -1,0 +1,41 @@
+.container-detail{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding-top: 50px;
+    flex-direction: column;
+    min-height: 90vh;
+    background-color:#ECF8F9;
+}
+
+.detail{
+    width: 50%;
+    border: 1px solid #C2DEDC;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detail h2{
+    text-transform: uppercase;
+    padding: 8px;
+}
+
+.detail p{
+    font-size: 16px;
+    padding: 5px;
+}
+
+.marco-post{
+    background-color: #FFFF;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 3px 3px 2px -1px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    height: 300px;
+}

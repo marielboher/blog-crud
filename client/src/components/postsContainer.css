@@ -1,0 +1,8 @@
+.container-posts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
